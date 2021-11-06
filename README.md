@@ -17,6 +17,9 @@ git grep -l 'TEMPLATE' | xargs sed -i 's/TEMPLATE/bilibili/g'
 # macOS
 # git grep -l 'TEMPLATE' | xargs sed -i '' -e 's/TEMPLATE/bilibili/g'
 
+git grep -l 'AUTHOR' | xargs sed -i 's/AUTHOR/your-name/g'
+git grep -l 'EMAIL' | xargs sed -i 's/EMAIL/your-email/g'
+
 find . -type f -name '*TEMPLATE*' | grep -v .git/ | xargs -I{} sh -c 'mv {} $(echo {} | sed -e "s/TEMPLATE/bilibili/g")'
 ```
 

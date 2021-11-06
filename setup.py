@@ -8,8 +8,8 @@ setup(
     version='0.1.dev0',
     description='feeluown TEMPLATE plugin',
 
-    # author='feeluown',
-    # author_email='feeluown@feeluown.org',
+    author='AUTHOR',
+    author_email='EMAIL',
 
     # packages=[
     #     'fuo_TEMPLATE',
