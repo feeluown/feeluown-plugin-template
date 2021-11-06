@@ -3,9 +3,12 @@
 from setuptools import setup
 
 
+from fuo_TEMPLATE import __version__
+
+
 setup(
     name='fuo_TEMPLATE',
-    version='0.1.dev0',
+    version=__version__,
     description='feeluown TEMPLATE plugin',
 
     author='AUTHOR',
